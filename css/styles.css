@@ -71,8 +71,14 @@ a {
     background-color: var(--title-text-color);
     color: #FFFFFF;     
     text-align: center;
+}
+.hero-title {
+    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
 }
 /* SiteNav */
 .site-nav .link {
@@ -95,21 +101,19 @@ a {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .features-text {
     color: var(--text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
 .title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -123,11 +127,11 @@ a {
     background-color:#F5F4FA;
 }
 .team {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--text-color);
 }
 .team-name {
     font-weight: 500;
@@ -149,7 +153,13 @@ a {
     background-color: var(--accent-color);
     width: 216px;
     height: 50px;
-    font-family: inherit;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;  
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Footer */
@@ -210,11 +220,11 @@ address {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-        /* identical to box height, or 162% */
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     border-style: none;
+    font-family: 'Roboto';
 }
 .gallery-button:hover,
 .gallery-button:focus {
